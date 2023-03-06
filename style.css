@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-areas:
+    "clear clear delete delete"
+    "seven eight nine plus"
+    "fore five six minus"
+    "one two three multiply"
+    "dot zero equal divide";
+
+  /* justify-content: center; */
+}
+.btn-delete {
+  grid-area: delete;
+}
+
+.btn-clear {
+  grid-area: clear;
+}
+.btn1 {
+  grid-area: one;
+}
+.btn2 {
+  grid-area: two;
+}
+.btn3 {
+  grid-area: three;
+}
+.btn4 {
+  grid-area: fore;
+}
+.btn5 {
+  grid-area: five;
+}
+.btn6 {
+  grid-area: six;
+}
+.btn7 {
+  grid-area: seven;
+}
+.btn8 {
+  grid-area: eight;
+}
+.btn9 {
+  grid-area: nine;
+}
+.btn0 {
+  grid-area: zero;
+}
+.btn-plus {
+  grid-area: plus;
+}
+.btn-minus {
+  grid-area: minus;
+}
+.btn-multiply {
+  grid-area: multiply;
+}
+.btn-dot {
+  grid-area: dot;
+}
+.btn-divide {
+  grid-area: divide;
+}
+.btn-equal {
+  grid-area: equal;
+}
